@@ -3,6 +3,10 @@ title = "pedros"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
+languages:
+  br:
+    disabled: true
+	
 paginate = 20
 enableEmoji = true
 # Enable Disqus comments
