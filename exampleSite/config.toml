@@ -125,31 +125,31 @@ author = "authors"
 
 [[params.social]]
 name = "Github"
-icon = "fab fa-github"
+icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/bunnis/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fab fa-linkedin"
+icon = "fa fa-2x fa-linkedin"
 weight = 2
 url = "https://www.linkedin.com/in/pedrosilva24/"
 
 [[params.social]]
-icon = "fab fa-stack-overflow"
+icon = "fa fa-2x fa-stack-overflow"
 name = "Stack Overflow"
 url = "https://stackoverflow.com/users/2141867/virgula24"
 weight = 3
 
 [[params.social]]
 name = "Cisco Blog Post"
-icon = "fas fa-newspaper"
+icon = "fa fa-2x fa-newspaper-o"
 weight = 4
 url = "https://blogs.cisco.com/cloud/fog-can-help-shape-the-future-of-iot"
 
 [[params.social]]
 weight = 5
-icon = "fas fa-file-alt"
+icon = "fa fa-2x  fa-file-alt"
 name = "Citrix Blog Post"
 url = "https://www.citrix.com/blogs/2019/10/02/customizing-citrix-adc-to-meet-your-needs/"
 
