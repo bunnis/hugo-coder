@@ -3,10 +3,6 @@ title = "pedros"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-languages:
-  pt-br:
-    disabled: true
-	
 paginate = 20
 enableEmoji = true
 # Enable Disqus comments
@@ -185,6 +181,7 @@ url = "contact/"
 [languages.pt-br]
 languageName = ":brazil:"
 title = "João Ninguém"
+disabled = true
 
 [languages.pt-br.params]
 author = "João Ninguém"
