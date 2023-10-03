@@ -143,13 +143,13 @@ weight = 3
 
 [[params.social]]
 name = "Cisco Blog Post"
-icon = "fa fa-2x fa-newspaper"
+icon = "fa fa-2x fa-newspaper-o"
 weight = 4
 url = "https://blogs.cisco.com/cloud/fog-can-help-shape-the-future-of-iot"
 
 [[params.social]]
 weight = 5
-icon = "fa fa-2x fa-file-alt"
+icon = "far fa-2x fa-file-alt"
 name = "Citrix Blog Post"
 url = "https://www.citrix.com/blogs/2019/10/02/customizing-citrix-adc-to-meet-your-needs/"
 
