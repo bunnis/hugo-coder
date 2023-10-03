@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 languages:
-  br:
+  pt-br:
     disabled: true
 	
 paginate = 20
