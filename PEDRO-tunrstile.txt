@@ -1,0 +1,4 @@
+
+how to test:
+
+curl -X POST  https://hugo-pedros-email-turnstile.pedro-4b5.workers.dev/ -H "Content-Type: application/json" -d '{"cf-turnstile-response":"VALUE HERE"}'
