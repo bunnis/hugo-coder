@@ -9,6 +9,7 @@ slug = "contact"
 
 This is the easiest way to reach out and I respond pretty quick.
 
+{{ "
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
 
 <div class="cf-turnstile" data-sitekey="0x4AAAAAAALKN5oheq0F7SFF" data-callback="javascriptCallback"></div>
@@ -45,4 +46,4 @@ This is the easiest way to reach out and I respond pretty quick.
 
     // Example of how to call the callback function manually (for testing)
     // You might trigger this function in response to some other event in your actual use case
-</script>
+</script>" | safeHTML }}
