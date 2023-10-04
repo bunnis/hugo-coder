@@ -11,7 +11,7 @@
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: token,
+            body: JSON.stringify({ 'cf-turnstile-response': token }),
         })
         .then(response => response.json())
         .then(data => {
