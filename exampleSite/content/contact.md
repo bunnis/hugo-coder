@@ -5,6 +5,44 @@ slug = "contact"
 
 **Email:** <span class="codedirection" >&#109;&#111;&#099;&#046;&#108;&#105;&#097;&#109;&#103;&#064;&#052;&#050;&#112;&#111;&#104;&#108;&#101;&#111;&#099;</span>
 
+
+
 This is the easiest way to reach out and I respond pretty quick.
 
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
+
+<div class="cf-turnstile" data-sitekey="0x4AAAAAAALKN5oheq0F7SFF" data-callback="javascriptCallback"></div>
+
+<script>
+    function javascriptCallback(token) {
+	alert(token);
+	
+	       // Make a POST request to a different website
+        fetch('https://hugo-pedros-email-turnstile.pedro-4b5.workers.dev/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: token,
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Success:', data);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+	
+	
+	
+	
+        // Get the email display element
+        var emailDisplay = document.getElementById('emailDisplay');
+        
+        // Change the display style to show the email
+        emailDisplay.style.display = 'block';
+    }
+
+    // Example of how to call the callback function manually (for testing)
+    // You might trigger this function in response to some other event in your actual use case
+</script>
