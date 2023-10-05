@@ -3,7 +3,7 @@ title = "Contact"
 slug = "contact"
 +++
 
-**Email:** <div id="myobsf">obs_placeholder</div> 
+**Email:** {{< email_obfuscation_placeholder >}}
 
 
 
