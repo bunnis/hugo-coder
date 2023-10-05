@@ -1,3 +1,6 @@
+<style type="text/css">
+span.codedirection { unicode-bidi:bidi-override; direction: rtl; }
+</style>
 
 <div class="cf-turnstile" data-sitekey="0x4AAAAAAALKN5oheq0F7SFF" data-callback="javascriptCallback"></div>
 
@@ -15,7 +18,9 @@
         })
         .then(response => response.json())
         .then(data => {
-            console.log('Success:', data);
+            const cdata = data.cdata;
+			// Update the content of the div with id 'myobsf' in your document
+            document.getElementById('myobsf').textContent = cdata;
         })
         .catch((error) => {
             console.error('Error:', error);
